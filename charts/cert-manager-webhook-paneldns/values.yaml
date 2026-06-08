@@ -1,0 +1,25 @@
+groupName: acme.paneldns.com
+
+replicaCount: 1
+
+image:
+  repository: ghcr.io/veeau/cert-manager-webhook-paneldns
+  pullPolicy: IfNotPresent
+  tag: ""   # defaults to appVersion
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 443
+
+resources: {}
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
+
+certManager:
+  namespace: cert-manager
+  serviceAccountName: cert-manager
