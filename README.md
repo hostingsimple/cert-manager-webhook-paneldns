@@ -1,6 +1,6 @@
 # cert-manager DNS-01 webhook for PanelDNS
 
-[![Latest Release](https://img.shields.io/github/v/release/hostingsimple/cert-manager-webhook-paneldns)](https://github.com/hostingsimple/cert-manager-webhook-paneldns/releases/latest) [![Release](https://github.com/hostingsimple/cert-manager-webhook-paneldns/actions/workflows/release.yml/badge.svg)](https://github.com/hostingsimple/cert-manager-webhook-paneldns/actions/workflows/release.yml) [![License](https://img.shields.io/github/license/hostingsimple/cert-manager-webhook-paneldns)](LICENSE) [![CI](https://github.com/hostingsimple/cert-manager-webhook-paneldns/actions/workflows/ci.yml/badge.svg)](https://github.com/hostingsimple/cert-manager-webhook-paneldns/actions/workflows/ci.yml) ![Kubernetes](https://img.shields.io/badge/Kubernetes-DNS--01-326CE5?logo=kubernetes&logoColor=white)
+[![CI](https://github.com/hostingsimple/cert-manager-webhook-paneldns/actions/workflows/ci.yml/badge.svg)](https://github.com/hostingsimple/cert-manager-webhook-paneldns/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/hostingsimple/cert-manager-webhook-paneldns)](LICENSE) ![Kubernetes](https://img.shields.io/badge/Kubernetes-DNS--01-326CE5?logo=kubernetes&logoColor=white)
 
 A [cert-manager](https://cert-manager.io) DNS-01 webhook solver that uses [PanelDNS](https://paneldns.com) to complete ACME challenges. Works with any Kubernetes ingress controller (nginx-ingress, Traefik, Istio, Gateway API) since cert-manager sits below all of them.
 
